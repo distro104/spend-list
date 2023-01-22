@@ -1,0 +1,24 @@
+{
+    "name": "distro104/spend-list",
+    "description": "List how mutch is spend in a holse",
+    "minimum-stability":"stable",
+	"type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Otavio J. Cruz",
+            "email": "otaviojc@gmail.com",
+			"role":"Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\":"source/"
+        },
+        "files": [
+            "source/Config.php",
+            "source/Functions.php"
+        ]
+    },
+    "require": {}
+}
